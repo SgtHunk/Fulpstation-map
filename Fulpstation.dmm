@@ -30,7 +30,7 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/item/storage/fancy/donut_box,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "aW" = (
 /obj/structure/railing{
@@ -38,13 +38,58 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"be" = (
+/obj/effect/turf_decal/trimline/white/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"bh" = (
+/obj/structure/table,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/clothing/head/that,
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "bI" = (
 /obj/structure/railing,
-/turf/open/floor/iron/freezer,
+/obj/structure/reagent_dispensers/plumbed{
+	dir = 4
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/dark,
 /area/service/kitchen/coldroom)
+"bP" = (
+/obj/machinery/chem_master/condimaster{
+	desc = "Looks like a knock-off chem-master. Perhaps useful for separating liquids when mixing drinks precisely. Also dispenses condiments.";
+	name = "HoochMaster Deluxe"
+	},
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "ck" = (
 /turf/open/floor/iron/freezer,
 /area/service/kitchen/coldroom)
+"cy" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/space)
+"cM" = (
+/obj/structure/table,
+/obj/item/book/manual/wiki/cooking_to_serve_man,
+/obj/effect/turf_decal/siding/white{
+	dir = 9
+	},
+/turf/open/floor/iron/dark,
+/area/service/kitchen)
+"eK" = (
+/obj/effect/turf_decal/trimline/white/corner{
+	dir = 8
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "eY" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
@@ -61,6 +106,14 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"fG" = (
+/obj/machinery/button/door/directional/south{
+	id = "upperbar";
+	name = "Upper Bar Shutters";
+	req_access_txt = "25"
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "fM" = (
 /turf/open/floor/carpet,
 /area/service/bar)
@@ -70,15 +123,29 @@
 	},
 /turf/open/floor/carpet,
 /area/service/bar)
+"ge" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "hh" = (
-/obj/structure/railing,
-/turf/open/floor/iron/dark,
+/obj/structure/extinguisher_cabinet/directional/east,
+/turf/open/floor/iron/checker,
 /area/service/bar)
 "hk" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/wood,
 /area/service/bar)
+"hs" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "hF" = (
 /turf/closed/wall,
 /area/service/bar)
@@ -89,13 +156,36 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /turf/open/floor/wood,
 /area/service/bar)
+"is" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"iw" = (
+/obj/machinery/griddle,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/service/kitchen)
+"iB" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral/half,
+/obj/effect/spawner/random/trash/food_packaging,
+/turf/open/floor/iron/dark,
+/area/space)
 "iI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock{
 	name = "Bar Access";
 	req_access_txt = "25"
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/siding/thinplating/dark/corner,
+/turf/open/floor/iron/checker,
 /area/service/bar)
 "iK" = (
 /obj/effect/decal/cleanable/dirt,
@@ -128,8 +218,15 @@
 	name = "kitchen shutters"
 	},
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
+/obj/effect/spawner/random/food_or_drink/donkpockets,
+/turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
+"le" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "lf" = (
 /turf/open/openspace,
 /area/space)
@@ -147,6 +244,22 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"lT" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral/full,
+/obj/item/plate/small{
+	pixel_x = -8
+	},
+/obj/item/food/pizzaslice/margherita{
+	pixel_x = -10;
+	pixel_y = 4
+	},
+/obj/effect/spawner/random/food_or_drink/refreshing_beverage{
+	pixel_x = 8;
+	pixel_y = 5
+	},
+/turf/open/floor/iron,
+/area/space)
 "mD" = (
 /obj/structure/chair/stool/directional/west{
 	dir = 4
@@ -159,9 +272,39 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/iron,
 /area/service/bar)
+"mH" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Kitchen Coldroom";
+	req_access_txt = "28"
+	},
+/turf/open/floor/plating,
+/area/space)
+"nt" = (
+/obj/machinery/door/airlock/freezer{
+	name = "Coldroom";
+	req_access_txt = "28"
+	},
+/obj/effect/turf_decal/trimline/white/corner,
+/obj/machinery/duct,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"nz" = (
+/obj/structure/reagent_dispensers/cooking_oil,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/dark,
+/area/service/kitchen/coldroom)
 "oj" = (
 /turf/open/openspace,
 /area/service/kitchen/coldroom)
+"ov" = (
+/obj/machinery/computer/chef_order,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"pa" = (
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "pd" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -177,6 +320,23 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"pF" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/reagentgrinder{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/machinery/light/directional/west,
+/obj/machinery/requests_console/directional/west{
+	department = "Kitchen";
+	departmentType = 2;
+	name = "Kitchen Requests Console"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "pM" = (
 /obj/structure/railing/corner,
 /obj/effect/turf_decal/siding/wood/corner{
@@ -192,6 +352,26 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/service/bar)
+"qh" = (
+/obj/item/reagent_containers/food/condiment/enzyme{
+	layer = 5
+	},
+/obj/item/kitchen/rollingpin,
+/obj/structure/table,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 5
+	},
+/obj/effect/turf_decal/siding/white{
+	dir = 10
+	},
+/turf/open/floor/iron/dark,
+/area/service/kitchen)
+"qT" = (
+/obj/structure/table,
+/obj/machinery/chem_dispenser/drinks,
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "qY" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/bottle/beer,
@@ -201,6 +381,30 @@
 /obj/effect/turf_decal/tile/bar,
 /turf/open/floor/iron,
 /area/service/bar)
+"re" = (
+/obj/structure/rack,
+/obj/item/stack/package_wrap{
+	pixel_x = 6
+	},
+/obj/item/stack/package_wrap,
+/obj/item/hand_labeler,
+/obj/item/book/manual/chef_recipes{
+	pixel_x = 2;
+	pixel_y = 6
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/turf_decal/trimline/brown/warning{
+	dir = 5
+	},
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"ri" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "rk" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/siding/wood{
@@ -208,14 +412,34 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"rH" = (
+/obj/structure/table/reinforced,
+/obj/item/paper,
+/obj/item/pen,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"rK" = (
+/obj/effect/turf_decal/siding/thinplating/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"sw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 8
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "sQ" = (
 /obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "barshutters";
+	id = "upperbar";
 	name = "bar shutters"
 	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/checker,
 /area/service/bar)
 "tq" = (
 /obj/structure/chair/wood{
@@ -247,6 +471,23 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"uz" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/full,
+/turf/open/floor/iron,
+/area/space)
+"uF" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchenshutters";
+	name = "kitchen shutters"
+	},
+/obj/machinery/door/firedoor,
+/obj/item/storage/bag/tray,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "uZ" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/turf_decal/tile/bar{
@@ -275,6 +516,31 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"wI" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/full,
+/turf/open/floor/iron,
+/area/space)
+"wL" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"xC" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral/full,
+/obj/item/bouquet/rose,
+/turf/open/floor/iron,
+/area/space)
+"xI" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
 "yg" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -292,20 +558,80 @@
 /obj/structure/chair/wood,
 /turf/open/floor/carpet,
 /area/service/bar)
+"yQ" = (
+/obj/machinery/griddle,
+/obj/effect/turf_decal/siding/white{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/service/kitchen)
+"zn" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"zz" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral/anticorner,
+/obj/item/plate,
+/turf/open/floor/iron/dark,
+/area/space)
+"zJ" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Ad" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/shaker{
+	pixel_x = -6
+	},
+/obj/machinery/reagentgrinder{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "Ao" = (
 /obj/structure/table/wood/poker,
 /obj/effect/spawner/random/entertainment/dice,
 /turf/open/floor/carpet,
 /area/service/bar)
-"Bc" = (
+"AP" = (
+/obj/structure/table,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 5
+	},
+/obj/item/holosign_creator/robot_seat/restaurant,
+/obj/effect/turf_decal/siding/white{
+	dir = 5
+	},
+/turf/open/floor/iron/dark,
+/area/service/kitchen)
+"AW" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "barshutters";
+	id = "upperbar";
 	name = "bar shutters"
 	},
 /obj/machinery/door/firedoor,
+/obj/item/reagent_containers/glass/rag,
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"Bc" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/firedoor,
 /obj/item/book/manual/wiki/barman_recipes,
-/turf/open/floor/iron/dark,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "upperbar";
+	name = "bar shutters"
+	},
+/turf/open/floor/iron/checker,
 /area/service/bar)
 "Be" = (
 /turf/open/floor/iron/dark,
@@ -314,6 +640,22 @@
 /obj/machinery/smartfridge/chemistry/preloaded,
 /turf/closed/wall,
 /area/space)
+"BC" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"BT" = (
+/obj/machinery/processor,
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Cj" = (
+/obj/effect/turf_decal/siding/thinplating/dark,
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "Cr" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -323,20 +665,121 @@
 "CE" = (
 /turf/open/floor/iron/white,
 /area/space)
+"CK" = (
+/obj/machinery/requests_console/directional/south{
+	department = "Bar";
+	departmentType = 2;
+	name = "Bar Requests Console"
+	},
+/obj/machinery/light_switch/directional/west,
+/obj/machinery/vending/wardrobe/bar_wardrobe,
+/turf/open/floor/iron/dark,
+/area/service/bar)
+"CL" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchenshutters";
+	name = "kitchen shutters"
+	},
+/obj/machinery/door/firedoor,
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = 6
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"CO" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Dq" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/item/radio/intercom/directional/north{
+	pixel_x = 5
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "DB" = (
-/obj/machinery/door/airlock/public/glass{
+/obj/machinery/door/firedoor,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/public{
 	name = "Kitchen";
 	req_access_txt = "28"
 	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/white,
+/turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
+"DG" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/food/drinks/bottle/kahlua{
+	layer = 3.3;
+	pixel_x = 9;
+	pixel_y = 17
+	},
+/obj/item/reagent_containers/food/drinks/bottle/lizardwine{
+	layer = 3.3;
+	pixel_x = -10;
+	pixel_y = 19
+	},
+/obj/item/reagent_containers/food/drinks/bottle/hcider{
+	layer = 3.1;
+	pixel_x = -1;
+	pixel_y = 18
+	},
+/obj/item/reagent_containers/food/drinks/bottle/vodka{
+	layer = 3.4;
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/food/drinks/bottle/vermouth{
+	layer = 3.4;
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/obj/effect/turf_decal/siding/thinplating/end,
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"DJ" = (
+/obj/machinery/vending/boozeomat,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "DU" = (
 /obj/machinery/door/firedoor,
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/wood,
 /area/service/bar)
+"El" = (
+/obj/machinery/microwave,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Eo" = (
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"ED" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 5
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"EH" = (
+/obj/machinery/deepfryer,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "Ff" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
@@ -349,6 +792,30 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood,
 /area/service/bar)
+"FM" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/button/door/directional/north{
+	id = "kitchenshutters";
+	name = "Kitchen Counter Shutters";
+	pixel_x = 6;
+	pixel_y = 28;
+	req_access_txt = "28"
+	},
+/obj/machinery/button/door/directional/north{
+	id = "kitchendelivery";
+	name = "Kitchen Delivery Shutters";
+	pixel_x = -6;
+	pixel_y = 28;
+	req_access_txt = "28"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "FR" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /turf/open/floor/wood,
@@ -361,6 +828,14 @@
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/wood,
 /area/service/bar)
+"FV" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/turf_decal/trimline/white/line,
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "GD" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -370,8 +845,14 @@
 /obj/structure/table/reinforced,
 /obj/structure/displaycase/forsale/kitchen,
 /obj/machinery/door/firedoor,
-/turf/open/floor/iron,
+/turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
+"GH" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "GT" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -385,7 +866,7 @@
 /obj/item/reagent_containers/food/condiment/peppermill{
 	pixel_x = 3
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
 "Hg" = (
 /obj/effect/turf_decal/tile/bar,
@@ -394,13 +875,24 @@
 	},
 /turf/open/floor/iron,
 /area/service/bar)
-"Ht" = (
-/obj/machinery/door/airlock/freezer{
-	name = "Coldroom";
-	req_access_txt = "28"
+"Hk" = (
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/power/apc/auto_name/directional/east,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Hs" = (
+/obj/structure/railing/corner{
+	dir = 4
 	},
-/turf/open/floor/iron/white,
-/area/service/kitchen/coldroom)
+/obj/effect/turf_decal/siding/thinplating/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"Ht" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/drinks/bottle/beer,
+/turf/open/floor/iron,
+/area/space)
 "Hz" = (
 /obj/structure/chair/stool/directional/west,
 /obj/effect/turf_decal/tile/bar{
@@ -409,17 +901,37 @@
 /obj/effect/turf_decal/tile/bar,
 /turf/open/floor/iron,
 /area/service/bar)
+"HC" = (
+/obj/structure/railing,
+/obj/machinery/duct,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"Ia" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "Id" = (
-/obj/structure/table/reinforced,
-/turf/open/floor/plating,
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
+"Ih" = (
+/obj/structure/table,
+/obj/item/storage/bag/tray,
+/obj/effect/turf_decal/siding/white{
+	dir = 6
+	},
+/turf/open/floor/iron/dark,
 /area/service/kitchen)
 "In" = (
-/obj/machinery/door/airlock/public/glass{
-	name = "Kitchen";
-	req_access_txt = "28"
-	},
-/turf/open/floor/iron/white,
-/area/service/kitchen)
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron,
+/area/space)
 "JJ" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -444,6 +956,26 @@
 	},
 /turf/open/floor/wood,
 /area/service/bar)
+"Km" = (
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 11
+	},
+/obj/effect/turf_decal/tile/bar,
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Kv" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "KH" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -452,6 +984,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/service/bar)
+"KZ" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "Li" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -462,6 +1000,25 @@
 "Ln" = (
 /turf/closed/wall,
 /area/service/kitchen/coldroom)
+"LX" = (
+/obj/effect/decal/cleanable/food/flour,
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 8
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Mg" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"MI" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/half,
+/turf/open/floor/iron/dark,
+/area/space)
 "MJ" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -469,6 +1026,28 @@
 	},
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
+/area/service/bar)
+"Nf" = (
+/obj/machinery/microwave,
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"NE" = (
+/obj/item/reagent_containers/food/drinks/bottle/cognac{
+	pixel_x = -10;
+	pixel_y = 7
+	},
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/food/drinks/bottle/fernet,
+/obj/item/reagent_containers/food/drinks/bottle/ale{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/effect/turf_decal/siding/thinplating/end{
+	dir = 1
+	},
+/turf/open/floor/iron/checker,
 /area/service/bar)
 "Ol" = (
 /obj/structure/table/wood/poker,
@@ -493,6 +1072,13 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
 /area/service/bar)
+"OG" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/machinery/disposal/bin,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "OK" = (
 /obj/structure/table/wood/poker,
 /obj/item/storage/fancy/cigarettes/cigars/cohiba{
@@ -519,12 +1105,29 @@
 /obj/effect/turf_decal/tile/bar,
 /turf/open/floor/iron,
 /area/service/bar)
+"PU" = (
+/mob/living/carbon/human/species/monkey/punpun,
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "PW" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
 /turf/open/floor/carpet,
 /area/service/bar)
+"Qx" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"Qy" = (
+/obj/machinery/door/airlock/public{
+	name = "Kitchen";
+	req_access_txt = "28"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "QI" = (
 /obj/machinery/door/airlock/research{
 	name = "Genetics Lab";
@@ -541,6 +1144,66 @@
 "QY" = (
 /turf/open/space/basic,
 /area/space)
+"Rf" = (
+/obj/machinery/oven,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Rp" = (
+/obj/effect/decal/cleanable/food/flour,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Rz" = (
+/obj/machinery/chem_master/condimaster,
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"RH" = (
+/obj/effect/turf_decal/tile/bar{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"RQ" = (
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"Sk" = (
+/obj/structure/table/wood,
+/obj/item/stack/package_wrap{
+	pixel_x = -4;
+	pixel_y = 6
+	},
+/obj/item/stack/package_wrap{
+	pixel_x = -4;
+	pixel_y = 4
+	},
+/obj/item/hand_labeler,
+/obj/item/pen,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/dark,
+/area/service/bar)
+"Td" = (
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"TF" = (
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 12
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 1
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "TG" = (
 /obj/structure/table/wood/fancy,
 /obj/item/gun/ballistic/revolver/russian,
@@ -553,6 +1216,18 @@
 /obj/structure/table/wood/fancy,
 /turf/open/floor/carpet,
 /area/service/bar)
+"Ue" = (
+/obj/machinery/duct,
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"Ut" = (
+/obj/structure/table,
+/obj/machinery/chem_dispenser/drinks/beer,
+/turf/open/floor/iron/dark,
+/area/service/bar)
 "Uw" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/turf_decal/tile/bar{
@@ -562,8 +1237,35 @@
 /turf/open/floor/iron,
 /area/service/bar)
 "UD" = (
-/turf/open/floor/iron/dark,
+/obj/structure/sign/barsign{
+	pixel_y = 32
+	},
+/obj/effect/turf_decal/siding/thinplating/dark{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/checker,
 /area/service/bar)
+"UK" = (
+/obj/effect/turf_decal/siding/thinplating/dark/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"UY" = (
+/obj/structure/table,
+/obj/effect/turf_decal/tile/neutral/full,
+/obj/item/plate/small{
+	pixel_x = 4
+	},
+/obj/item/food/cakeslice/lemon{
+	pixel_x = 5
+	},
+/obj/item/reagent_containers/food/drinks/coffee{
+	pixel_x = -5
+	},
+/turf/open/floor/iron,
+/area/space)
 "Vf" = (
 /obj/machinery/computer/slot_machine,
 /obj/effect/turf_decal/tile/bar{
@@ -573,9 +1275,51 @@
 /obj/machinery/computer/security/telescreen/entertainment/directional/south,
 /turf/open/floor/iron,
 /area/service/bar)
+"Vr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
 "VA" = (
 /turf/open/floor/iron,
 /area/space)
+"VH" = (
+/turf/open/floor/iron/checker,
+/area/service/bar)
+"VL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"VM" = (
+/obj/structure/table/reinforced/rglass,
+/obj/item/reagent_containers/food/drinks/bottle/champagne{
+	layer = 3.1;
+	pixel_x = 5;
+	pixel_y = 15
+	},
+/obj/item/reagent_containers/food/drinks/bottle/grappa{
+	layer = 3.1;
+	pixel_x = -9;
+	pixel_y = 15
+	},
+/obj/item/reagent_containers/food/drinks/bottle/goldschlager{
+	layer = 3.2;
+	pixel_x = -8;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/food/drinks/bottle/rum{
+	layer = 3.2;
+	pixel_x = 7;
+	pixel_y = -1
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron/checker,
+/area/service/bar)
 "VW" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -586,18 +1330,63 @@
 /turf/open/floor/wood,
 /area/service/bar)
 "Xc" = (
-/turf/open/floor/iron/white,
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/southright{
+	name = "Delivery Window";
+	req_access_txt = "28"
+	},
+/obj/machinery/door/window/northleft{
+	name = "Delivery Window"
+	},
+/obj/item/pizzabox{
+	pixel_y = 6
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "kitchendelivery";
+	name = "kitchen shutters"
+	},
+/turf/open/floor/plating,
 /area/service/kitchen)
 "Xg" = (
 /obj/structure/table/reinforced,
 /obj/structure/displaycase/forsale/kitchen,
+/obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters/preopen{
-	id = "barshutters";
+	id = "upperbar";
 	name = "bar shutters"
 	},
-/obj/machinery/door/firedoor,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/checker,
 /area/service/bar)
+"Ya" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/neutral/anticorner{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/space)
+"Yc" = (
+/obj/effect/turf_decal/tile/bar,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"Yr" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light_switch/directional/south,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"YW" = (
+/obj/machinery/duct,
+/turf/open/floor/iron/freezer,
+/area/service/kitchen/coldroom)
+"Zf" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/space)
 "Zr" = (
 /obj/effect/spawner/random/entertainment/arcade{
 	dir = 8
@@ -617,20 +1406,44 @@
 /area/service/bar)
 "Zw" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "barshutters";
-	name = "bar shutters"
-	},
 /obj/machinery/door/firedoor,
 /obj/effect/spawner/random/entertainment/lighter{
 	pixel_x = 8
 	},
 /obj/item/storage/fancy/cigarettes/cigpack_robust,
-/turf/open/floor/iron/dark,
+/obj/structure/sign/picture_frame/portrait/bar{
+	pixel_y = -28
+	},
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "upperbar";
+	name = "bar shutters"
+	},
+/turf/open/floor/iron/checker,
 /area/service/bar)
+"Zy" = (
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 8
+	},
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
+/area/space)
 "ZI" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/white,
+/area/space)
+"ZU" = (
+/obj/effect/turf_decal/trimline/white/line{
+	dir = 8
+	},
+/obj/machinery/duct,
+/turf/open/floor/iron/cafeteria,
+/area/service/kitchen)
+"ZV" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/turf_decal/tile/neutral/half,
+/turf/open/floor/iron/dark,
 /area/space)
 "ZX" = (
 /obj/structure/table/wood,
@@ -94317,7 +95130,7 @@ VA
 VA
 VA
 Ln
-ck
+nz
 bI
 oj
 fa
@@ -94574,8 +95387,8 @@ VA
 VA
 VA
 Ln
-ck
-bI
+zn
+HC
 oj
 fa
 yp
@@ -94831,8 +95644,8 @@ VA
 VA
 VA
 Ln
-ck
-ck
+Mg
+YW
 ck
 fa
 fa
@@ -95088,10 +95901,10 @@ VA
 VA
 VA
 Ln
+rH
+xI
 ck
-ck
-ck
-yp
+mH
 yp
 yp
 yp
@@ -95345,9 +96158,9 @@ VA
 VA
 VA
 Ln
-ck
-ck
-ck
+ov
+Ue
+Yr
 fa
 yp
 yp
@@ -95603,8 +96416,8 @@ VA
 VA
 Ln
 Ln
-Ht
 Ln
+nt
 fa
 fa
 fa
@@ -95614,7 +96427,7 @@ fa
 fa
 fa
 fa
-VA
+le
 VA
 VA
 QY
@@ -95858,20 +96671,20 @@ fa
 VA
 VA
 VA
+Ht
 TP
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+Rf
+FV
+EH
+pF
+EH
+Rz
+OG
+Kv
+re
 TP
-VA
+Ya
+GH
 VA
 VA
 QY
@@ -96116,19 +96929,19 @@ VA
 VA
 VA
 Id
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
 TP
-VA
+Rf
+eK
+sw
+ZU
+sw
+ZU
+LX
+be
+Nf
+TP
+iB
+GH
 VA
 VA
 QY
@@ -96372,20 +97185,20 @@ fa
 VA
 VA
 VA
-TP
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-TP
 VA
+TP
+Dq
+Eo
+cM
+iw
+qh
+Eo
+hs
+VL
+El
+TP
+ZV
+GH
 VA
 VA
 QY
@@ -96629,23 +97442,23 @@ fa
 VA
 VA
 VA
+In
+Xc
+wL
+Eo
+AP
+yQ
+Ih
+VL
+Td
+VL
+BT
 TP
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-TP
+MI
+GH
 VA
 VA
 VA
-QY
 QY
 QY
 QY
@@ -96886,23 +97699,23 @@ fa
 VA
 VA
 VA
-In
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+VA
+Qy
+RH
+Vr
+Eo
+Rp
+Eo
+zJ
+Km
+Hk
+CO
 TP
+zz
+GH
 VA
 VA
 VA
-QY
 QY
 QY
 QY
@@ -97143,23 +97956,23 @@ fa
 VA
 VA
 VA
+VA
 TP
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
-Xc
+FM
+Yc
+Yc
+Yc
+Yc
+Yc
 TP
 TP
 DB
 TP
 TP
+is
+le
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -97400,23 +98213,23 @@ fa
 VA
 VA
 VA
-TP
+fa
 TP
 GD
 GT
 kf
-kf
+uF
 aL
-kf
+CL
 TP
 Zs
 eY
 PW
 hF
+uz
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -97670,10 +98483,10 @@ VW
 eY
 ZX
 js
+xC
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -97927,10 +98740,10 @@ VW
 ue
 tq
 hF
+wI
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -98184,10 +98997,10 @@ VW
 lO
 JJ
 hF
+Zy
+rK
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -98444,7 +99257,7 @@ hk
 VA
 VA
 VA
-QY
+VA
 QY
 QY
 QY
@@ -98698,10 +99511,10 @@ pi
 pi
 pi
 FT
+KZ
+le
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -98955,10 +99768,10 @@ PW
 fM
 PW
 hF
+uz
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -99212,10 +100025,10 @@ TG
 fM
 TR
 js
+UY
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -99469,10 +100282,10 @@ vy
 fM
 jb
 hF
+wI
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -99726,10 +100539,10 @@ QJ
 QJ
 QJ
 lo
+Zf
+rK
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -99986,7 +100799,7 @@ hk
 VA
 VA
 VA
-QY
+VA
 QY
 QY
 QY
@@ -100240,10 +101053,10 @@ VW
 FR
 if
 hF
+cy
+le
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -100497,10 +101310,10 @@ aD
 FK
 Vf
 hF
+uz
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -100754,10 +101567,10 @@ aD
 qa
 uZ
 hF
+lT
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -101003,7 +101816,7 @@ hF
 Xg
 Bc
 sQ
-sQ
+AW
 sQ
 Zw
 hF
@@ -101011,10 +101824,10 @@ OL
 eY
 qY
 hF
+wI
+GH
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -101258,20 +102071,20 @@ VA
 VA
 hF
 UD
-UD
-UD
-UD
-UD
-UD
+UK
+ri
+PU
+VH
+fG
 hF
 hF
 iI
 hF
 hF
+Zf
+rK
 VA
 VA
-VA
-QY
 QY
 QY
 QY
@@ -101514,21 +102327,21 @@ VA
 VA
 VA
 hF
-UD
-UD
-UD
-UD
-UD
-UD
-UD
-UD
-UD
-UD
+pa
+Qx
+VH
+VH
+VH
+VH
+Ia
+ri
+Cj
+CK
 hF
 VA
 VA
 VA
-QY
+VA
 QY
 QY
 QY
@@ -101771,21 +102584,21 @@ VA
 VA
 VA
 hF
-UD
-UD
-UD
-UD
-UD
-UD
-UD
-UD
-UD
-UD
+DJ
+Qx
+NE
+VM
+DG
+VH
+BC
+BC
+Hs
+Sk
 hF
 VA
 VA
 VA
-QY
+VA
 QY
 QY
 QY
@@ -102028,14 +102841,14 @@ VA
 VA
 VA
 hF
-UD
-UD
-UD
-UD
-UD
-UD
-UD
-UD
+Ut
+ED
+RQ
+RQ
+ge
+ri
+pV
+pV
 hF
 hF
 hF
@@ -102285,11 +103098,11 @@ VA
 VA
 VA
 hF
-UD
-UD
-UD
-UD
-UD
+qT
+Ad
+bh
+bP
+TF
 hh
 pV
 pV
@@ -102543,13 +103356,13 @@ VA
 VA
 hF
 hF
-UD
-UD
-UD
-UD
-hh
-pV
-pV
+hF
+hF
+hF
+hF
+hF
+hF
+hF
 hF
 VA
 VA
@@ -102799,15 +103612,15 @@ VA
 VA
 VA
 VA
-hF
-hF
-hF
-hF
-hF
-hF
-hF
-hF
-hF
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+VA
+VA
 VA
 VA
 VA
