@@ -127,6 +127,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/command/bridge)
+"bv" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/science/robotics/mechbay)
 "bI" = (
 /obj/structure/railing,
 /obj/structure/reagent_dispensers/plumbed{
@@ -394,6 +398,8 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/mob/living/carbon/human/species/monkey,
+/obj/machinery/light/directional/north,
 /turf/open/floor/grass,
 /area/space)
 "gG" = (
@@ -433,6 +439,7 @@
 /obj/structure/table,
 /obj/item/storage/belt/utility,
 /obj/item/multitool,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
 "hs" = (
@@ -442,6 +449,25 @@
 /obj/machinery/duct,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
+"hx" = (
+/mob/living/carbon/human/species/monkey,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/grass,
+/area/space)
+"hC" = (
+/obj/machinery/requests_console/directional/west{
+	department = "Genetics";
+	departmentType = 2;
+	name = "Genetics Requests Console"
+	},
+/obj/machinery/vending/wardrobe/gene_wardrobe,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark,
+/area/space)
+"hD" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white,
+/area/science/robotics/lab)
 "hF" = (
 /turf/closed/wall,
 /area/service/bar)
@@ -601,6 +627,12 @@
 "ji" = (
 /turf/open/floor/carpet/blue,
 /area/command/heads_quarters/hop)
+"jl" = (
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor6"
+	},
+/turf/open/floor/iron/white,
+/area/science/robotics/lab)
 "js" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -650,6 +682,7 @@
 /obj/machinery/mecha_part_fabricator{
 	dir = 4
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
 "kA" = (
@@ -886,6 +919,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
+"oH" = (
+/obj/structure/closet/radiation,
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/dark,
+/area/space)
 "oK" = (
 /obj/structure/window/reinforced/spawner,
 /turf/open/floor/plating,
@@ -996,6 +1034,13 @@
 "qk" = (
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
+"qn" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/flora/junglebush/b,
+/turf/open/floor/grass,
+/area/space)
 "qp" = (
 /obj/item/hand_tele,
 /obj/structure/table/reinforced,
@@ -1014,6 +1059,7 @@
 /area/command/bridge)
 "qG" = (
 /obj/machinery/newscaster/directional/south,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
 "qH" = (
@@ -1125,6 +1171,7 @@
 /area/hallway/secondary/command)
 "rT" = (
 /obj/machinery/recharge_station,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/science/robotics/mechbay)
 "rW" = (
@@ -1166,6 +1213,7 @@
 /area/space)
 "so" = (
 /obj/machinery/firealarm/directional/south,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
 "sv" = (
@@ -1192,6 +1240,14 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/hallway/secondary/command)
+"sL" = (
+/obj/machinery/light_switch/directional/east,
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = 11
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "sQ" = (
 /obj/structure/table/reinforced,
 /obj/machinery/door/firedoor,
@@ -1246,6 +1302,21 @@
 /obj/item/clothing/head/welding,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
+"tT" = (
+/obj/structure/table,
+/obj/item/storage/box/monkeycubes{
+	pixel_x = 4
+	},
+/obj/item/storage/pill_bottle/mutadone,
+/obj/item/storage/box/disks{
+	pixel_x = 6;
+	pixel_y = 9
+	},
+/obj/item/folder/white{
+	pixel_x = 2
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "tY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -1303,6 +1374,13 @@
 /obj/item/storage/bag/tray,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
+"uK" = (
+/obj/structure/chair/office/light{
+	dir = 8
+	},
+/obj/effect/landmark/start/geneticist,
+/turf/open/floor/iron/dark,
+/area/space)
 "uS" = (
 /obj/structure/chair/stool/directional/north,
 /obj/item/trash/can{
@@ -1664,6 +1742,11 @@
 	},
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
+"zI" = (
+/obj/machinery/computer/mech_bay_power_console,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/science/robotics/mechbay)
 "zJ" = (
 /obj/effect/turf_decal/tile/bar,
 /obj/effect/decal/cleanable/dirt,
@@ -1852,6 +1935,15 @@
 /area/science/robotics/lab)
 "Bn" = (
 /obj/structure/table,
+/obj/item/radio/headset/headset_medsci{
+	pixel_x = -7;
+	pixel_y = 4
+	},
+/obj/item/toy/figure/geneticist,
+/obj/item/storage/box/disks{
+	pixel_x = 6;
+	pixel_y = 9
+	},
 /turf/open/floor/iron/dark,
 /area/space)
 "Bs" = (
@@ -1876,6 +1968,13 @@
 	},
 /turf/open/floor/iron/checker,
 /area/service/bar)
+"BM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/science/robotics/lab)
 "BQ" = (
 /obj/machinery/dna_scannernew,
 /turf/open/floor/iron/dark,
@@ -1889,7 +1988,7 @@
 "Ci" = (
 /obj/effect/spawner/structure/window,
 /obj/effect/spawner/structure/window/reinforced,
-/turf/closed/wall,
+/turf/open/floor/plating,
 /area/space)
 "Cj" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -2078,6 +2177,7 @@
 /area/command/heads_quarters/captain)
 "DT" = (
 /obj/effect/landmark/start/roboticist,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
 "DU" = (
@@ -2086,6 +2186,10 @@
 /obj/machinery/door/airlock/wood/glass,
 /turf/open/floor/wood,
 /area/service/bar)
+"DV" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/science/robotics/lab)
 "DZ" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -2302,6 +2406,30 @@
 /obj/machinery/duct,
 /turf/open/floor/iron/cafeteria,
 /area/service/kitchen)
+"Ge" = (
+/obj/structure/table,
+/obj/item/storage/box/bodybags,
+/turf/open/floor/iron/dark,
+/area/space)
+"Gj" = (
+/obj/structure/table,
+/obj/item/storage/box/gloves{
+	pixel_x = 5;
+	pixel_y = 1
+	},
+/obj/item/storage/box/monkeycubes{
+	pixel_x = 4
+	},
+/obj/structure/extinguisher_cabinet/directional/east,
+/obj/item/reagent_containers/spray/cleaner{
+	pixel_x = -2;
+	pixel_y = 6
+	},
+/obj/item/storage/pill_bottle/mutadone{
+	pixel_x = -9
+	},
+/turf/open/floor/iron/dark,
+/area/space)
 "Gm" = (
 /obj/structure/bed,
 /obj/item/bedsheet/hop,
@@ -2377,6 +2505,10 @@
 "GZ" = (
 /turf/closed/wall/r_wall,
 /area/science/robotics/mechbay)
+"Hb" = (
+/obj/effect/decal/cleanable/oil,
+/turf/open/floor/iron,
+/area/science/robotics/mechbay)
 "Hf" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -2384,6 +2516,8 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/mob/living/carbon/human/species/monkey,
+/obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass,
 /area/space)
 "Hg" = (
@@ -2457,6 +2591,7 @@
 /obj/item/scalpel{
 	pixel_y = 12
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/science/robotics/lab)
 "HQ" = (
@@ -2469,6 +2604,17 @@
 "HT" = (
 /obj/machinery/holopad,
 /turf/open/floor/iron/white,
+/area/space)
+"HW" = (
+/obj/machinery/computer/scan_consolenew{
+	dir = 8
+	},
+/obj/machinery/camera/directional/east{
+	c_tag = "Genetics";
+	name = "Genetics Camera";
+	network = list("ss13","rd")
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "Ia" = (
 /obj/machinery/light/directional/west,
@@ -2552,6 +2698,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
+"IJ" = (
+/obj/machinery/holopad,
+/obj/effect/turf_decal/bot,
+/obj/effect/landmark/event_spawn,
+/turf/open/floor/iron/dark,
+/area/space)
 "IL" = (
 /obj/structure/railing{
 	dir = 4
@@ -2646,6 +2798,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
+/obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass,
 /area/space)
 "Kf" = (
@@ -2716,6 +2869,7 @@
 /area/command/heads_quarters/captain/private)
 "KG" = (
 /obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
 "KH" = (
@@ -2772,6 +2926,7 @@
 	name = "Research Camera";
 	network = list("ss13","rd")
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/science/robotics/mechbay)
 "Ln" = (
@@ -2787,6 +2942,7 @@
 /obj/machinery/vending/wardrobe/robo_wardrobe,
 /obj/structure/extinguisher_cabinet/directional/west,
 /obj/machinery/light/directional/west,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
 "LV" = (
@@ -2846,6 +3002,10 @@
 /obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron,
 /area/service/bar)
+"MX" = (
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/dark,
+/area/space)
 "Nf" = (
 /obj/machinery/microwave,
 /obj/structure/table/reinforced,
@@ -2903,6 +3063,21 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/command/meeting_room)
+"NI" = (
+/obj/structure/chair/office/light{
+	dir = 4
+	},
+/obj/effect/landmark/start/geneticist,
+/turf/open/floor/iron/dark,
+/area/space)
+"NU" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/recharge_floor,
+/area/science/robotics/mechbay)
 "NY" = (
 /obj/structure/railing{
 	dir = 1
@@ -3053,6 +3228,17 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"PB" = (
+/obj/machinery/button/door/directional/east{
+	id = "rdgene";
+	name = "Primary Genetics Shutters Control";
+	pixel_x = 0;
+	pixel_y = -24;
+	req_access_txt = "7"
+	},
+/obj/item/kirbyplants/random,
+/turf/open/floor/iron/dark,
+/area/space)
 "PE" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -3069,6 +3255,9 @@
 /area/command/heads_quarters/captain/private)
 "PL" = (
 /obj/effect/turf_decal/bot,
+/obj/effect/decal/cleanable/oil{
+	icon_state = "floor5"
+	},
 /turf/open/floor/iron/dark,
 /area/science/robotics/lab)
 "PQ" = (
@@ -3159,6 +3348,12 @@
 /obj/structure/chair/office,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
+"QX" = (
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/machinery/disposal/bin,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/iron/dark,
+/area/space)
 "QY" = (
 /turf/open/space/basic,
 /area/space)
@@ -3248,6 +3443,7 @@
 /obj/machinery/computer/scan_consolenew{
 	dir = 4
 	},
+/obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron/dark,
 /area/space)
 "RS" = (
@@ -3316,6 +3512,10 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/white,
 /area/science/robotics/lab)
+"Th" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/science/robotics/lab)
 "Tn" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
@@ -3327,6 +3527,15 @@
 /obj/item/storage/box/ids,
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
+"Tw" = (
+/obj/structure/table,
+/obj/item/reagent_containers/glass/beaker,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/dropper,
+/turf/open/floor/iron/dark,
+/area/space)
 "Tx" = (
 /obj/structure/sink{
 	dir = 4;
@@ -3430,6 +3639,7 @@
 /turf/open/floor/iron/dark,
 /area/command/bridge)
 "Uh" = (
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/circuit,
 /area/science/robotics/mechbay)
 "Us" = (
@@ -3791,6 +4001,7 @@
 /area/hallway/secondary/command)
 "Yv" = (
 /obj/effect/spawner/random/engineering/tracking_beacon,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/science/robotics/mechbay)
 "Yx" = (
@@ -3840,6 +4051,12 @@
 	},
 /turf/open/floor/iron,
 /area/hallway/secondary/command)
+"Zj" = (
+/obj/machinery/dna_scannernew,
+/obj/machinery/firealarm/directional/east,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark,
+/area/space)
 "Zn" = (
 /obj/structure/table/wood,
 /turf/open/floor/carpet/neon/simple/black/nodots,
@@ -3897,6 +4114,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/science/robotics/lab)
 "ZG" = (
@@ -104812,15 +105030,15 @@ fa
 Nu
 Hf
 aQ
-aQ
+qn
 Pc
-Be
-Be
+hC
+tT
 BQ
 RR
-Be
+PB
 Nu
-yp
+VA
 VA
 VA
 VA
@@ -105068,13 +105286,13 @@ VA
 VA
 fa
 gD
-Pd
+hx
 Pd
 qS
 Be
 Be
 Be
-Be
+uK
 Be
 si
 VA
@@ -105330,7 +105548,7 @@ Bs
 JZ
 Be
 Be
-Be
+Tw
 Be
 Gp
 ZI
@@ -105581,13 +105799,13 @@ VA
 VA
 VA
 Ci
+MX
 Be
 Be
 Be
 Be
-Be
-Be
-Be
+IJ
+Ge
 Be
 Bn
 si
@@ -105840,10 +106058,10 @@ VA
 QI
 Be
 Be
+NI
 Be
 Be
-Be
-Be
+NI
 Be
 Be
 Be
@@ -106095,15 +106313,15 @@ VA
 VA
 VA
 Ci
-Be
+sL
 BQ
 db
+Gj
+Zj
+HW
+QX
 Be
-BQ
-db
-Be
-Bn
-Bn
+oH
 Nu
 VA
 VA
@@ -109434,16 +109652,16 @@ QY
 QY
 Nx
 LH
-Rm
+hD
 mo
 JP
+hD
 Rm
 Rm
-Rm
-Rm
+hD
 uC
-Ob
-Ob
+DV
+DV
 Ob
 Ku
 ra
@@ -109693,11 +109911,11 @@ Nx
 ls
 Rm
 Rm
+hD
+hD
 Rm
 Rm
-Rm
-Rm
-Rm
+hD
 ZD
 wS
 HP
@@ -109948,11 +110166,11 @@ QY
 QY
 Nx
 wu
-Rm
-Rm
-Rm
+hD
+hD
+hD
 WL
-Rm
+jl
 Rm
 qG
 Nx
@@ -110207,7 +110425,7 @@ Nx
 Am
 Rm
 gG
-tY
+BM
 tY
 tY
 oB
@@ -110472,7 +110690,7 @@ IO
 Nx
 rT
 Oh
-Oh
+bv
 vq
 GZ
 VA
@@ -110727,8 +110945,8 @@ tP
 zM
 Ah
 Nx
-Oh
-Oh
+bv
+Hb
 Yv
 hg
 AZ
@@ -110979,19 +111197,19 @@ CN
 Rm
 WI
 cJ
-qk
+Th
 hl
 Ee
 Rm
 Nx
 uT
 Uh
-uT
+zI
 ZR
 AZ
 Zd
-QY
-QY
+VA
+VA
 QY
 QY
 QY
@@ -111232,8 +111450,8 @@ QY
 QY
 QY
 Nx
-Rm
-Rm
+hD
+hD
 OW
 cJ
 DT
@@ -111241,14 +111459,14 @@ kv
 fO
 so
 Nx
-At
+NU
 Uh
 At
 ZR
 AZ
 Zd
-QY
-QY
+VA
+VA
 QY
 QY
 QY
@@ -111504,8 +111722,8 @@ vS
 ox
 GZ
 VA
-QY
-QY
+VA
+VA
 QY
 QY
 QY
@@ -111761,8 +111979,8 @@ Nu
 Nu
 Nu
 VA
-QY
-QY
+VA
+VA
 QY
 QY
 QY
