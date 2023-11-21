@@ -15604,8 +15604,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
-	id_tag = "MedbayFoyer";
-	name = "Medbay Clinic"
+	id_tag = null;
+	name = "Medbay Desk"
 	},
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/showroomfloor,
