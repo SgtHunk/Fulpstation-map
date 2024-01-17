@@ -1205,6 +1205,10 @@
 "aUQ" = (
 /turf/closed/wall,
 /area/station/security/lockers)
+"aVn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "aVy" = (
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 4
@@ -1923,6 +1927,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/scrubbers/visible{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "btj" = (
@@ -3599,6 +3604,7 @@
 /obj/machinery/door/airlock/atmos/glass{
 	name = "Atmospherics Storage"
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "cvX" = (
@@ -7732,6 +7738,7 @@
 /area/station/security/lockers)
 "flE" = (
 /obj/item/kirbyplants/random,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "flG" = (
@@ -7818,6 +7825,7 @@
 /area/space)
 "fnY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "foe" = (
@@ -14282,6 +14290,7 @@
 /area/space)
 "jOw" = (
 /obj/machinery/light/small/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/space)
 "jOx" = (
@@ -15929,6 +15938,7 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 5
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "lfB" = (
@@ -17142,6 +17152,7 @@
 	dir = 8;
 	name = "Ports to Filter"
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "lUa" = (
@@ -22227,6 +22238,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 6
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/engineering/atmos)
 "psP" = (
@@ -26525,6 +26537,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark/side{
 	dir = 4
 	},
@@ -29544,6 +29557,11 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"uhg" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/station/engineering/atmos)
 "uhz" = (
 /obj/machinery/light/small/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -113338,7 +113356,7 @@ fDu
 raP
 bfU
 uSn
-cQZ
+uhg
 fnY
 prJ
 dSV
@@ -113595,7 +113613,7 @@ qLD
 pzx
 bfU
 uSn
-bfU
+aVn
 met
 prJ
 eOJ
@@ -115136,9 +115154,9 @@ cOw
 qvR
 qpN
 bfU
-bfU
-bfU
-bfU
+aVn
+aVn
+aVn
 flE
 nHe
 cDc
