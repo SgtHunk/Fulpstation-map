@@ -2399,7 +2399,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/station/maintenance/department/engine)
 "bgB" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -9543,7 +9543,7 @@
 "ezs" = (
 /obj/effect/turf_decal/tile/yellow/half/contrasted,
 /turf/closed/wall,
-/area/station/commons/storage/primary)
+/area/station/maintenance/department/engine)
 "ezJ" = (
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
@@ -135549,11 +135549,11 @@ ktD
 iDS
 jTx
 bDA
-fjm
-fjm
-fjm
+aqv
+aqv
+aqv
 bgq
-fjm
+aqv
 ieT
 xli
 jGU
@@ -135806,7 +135806,7 @@ czu
 iDS
 jTx
 ces
-fjm
+aqv
 dwq
 dwq
 jgV
@@ -136063,7 +136063,7 @@ tWn
 bmx
 rDQ
 aUM
-fjm
+aqv
 hZp
 dwq
 dwq
@@ -136320,10 +136320,10 @@ hOc
 hOc
 oQi
 hOc
-hOc
-hOc
-hOc
-hOc
+aqv
+aqv
+aqv
+aqv
 jgV
 vYS
 hGo
@@ -136580,7 +136580,7 @@ iaq
 iaq
 sXB
 sXB
-hOc
+aqv
 jgV
 vYS
 qfI
@@ -136837,7 +136837,7 @@ dAC
 iaq
 sYs
 taP
-hOc
+aqv
 jgV
 mYl
 mul
@@ -137094,7 +137094,7 @@ iaq
 iaq
 taK
 tft
-hOc
+aqv
 jgV
 vYS
 uBC
@@ -137351,7 +137351,7 @@ bpo
 iaq
 taK
 taK
-hOc
+aqv
 jgV
 vYS
 gYl
@@ -137601,14 +137601,14 @@ pfF
 iRT
 iRT
 dwq
-hOc
-hOc
-hOc
-hOc
-hOc
-hOc
-hOc
-hOc
+aqv
+aqv
+aqv
+aqv
+aqv
+aqv
+aqv
+aqv
 jgV
 vYS
 vYS
@@ -138126,14 +138126,14 @@ tFY
 tFY
 tFY
 vPx
-iwC
-iwC
-iwC
-iwC
-iwC
-iwC
-iwC
-iwC
+aqv
+aqv
+aqv
+aqv
+aqv
+aqv
+aqv
+aqv
 vzy
 pju
 cNW
@@ -138383,7 +138383,7 @@ ugQ
 tLU
 tFY
 vPx
-iwC
+aqv
 dhY
 pFC
 wzq
@@ -138640,7 +138640,7 @@ svH
 rAh
 tFY
 vPx
-iwC
+aqv
 lrZ
 dze
 jhD
@@ -138897,9 +138897,9 @@ svH
 rAh
 tFY
 vPx
-iwC
-iwC
-iwC
+aqv
+aqv
+aqv
 fUL
 dlW
 xOJ
@@ -139156,7 +139156,7 @@ tFY
 mxi
 vPx
 vPx
-iwC
+aqv
 dDe
 tQB
 nGu
@@ -139413,7 +139413,7 @@ tFY
 sMz
 sMz
 bJu
-iwC
+aqv
 dMH
 ngO
 eDi
@@ -139670,7 +139670,7 @@ cLo
 cIi
 sMz
 vPx
-iwC
+aqv
 iTl
 hOh
 eXY
@@ -139928,11 +139928,11 @@ eKE
 sMz
 vPx
 ezs
-iwC
-iwC
-iwC
-iwC
-iwC
+aqv
+aqv
+aqv
+aqv
+aqv
 cKr
 pju
 cNW
